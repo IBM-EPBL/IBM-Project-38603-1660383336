@@ -1,0 +1,116 @@
+<html>
+    <head>
+    <style>
+        .section{
+          font-family: Arial, Helvetica, sans-serif;
+          background: rgb(204, 192, 192);
+          margin: 50px;
+          }
+        
+        
+        .header {
+          padding: 80px;
+          background: #1abc9c;
+          color: white;
+          height:30%;
+        }
+        
+        .header h1 {
+          font-size: 40px;
+          text-align: center;
+          
+        }     
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }  
+        .column {
+          float: left;
+          width:30%
+          padding:10px;
+        }
+        .column.side1{
+          width: 47.5%;
+        }
+        .column.side2 {
+          width: 47.5%;
+        }
+        .column.middle {
+          width: 5%;
+        }
+
+        
+      
+        
+        .footer{
+        padding: 20px;
+        background: #1abc9c;
+        color: white;
+        height:10%;
+        text-align: right;
+        }
+        
+        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        </head>
+        <body>
+          <header>
+            <i sytle="text-align:right;" class="fa fa-facebook"></i>&nbsp
+            <i Style="align:left;" class="fa fa-linkedin"></i>&nbsp
+            <i Style="align:left;" class="fa fa-github"></i>
+            <i Style="align:left;" class="fa fa-twitter"></i>&nbsp
+          </header>
+          <div class="header">
+          <img src="https://www.shutterstock.com/image-photo/casually-handsome-confident-young-man-jeans-439433326"  style="height:150px;width:150px;">
+          <h1>Jack<br>
+          Full Stack Developer</h1>
+
+        </div>
+        <div class="section">
+          <div class="row">
+            <div class="column side1">
+            <h4>PROFILE</h4>
+            <p>Seeking a position in a competitive environment that would challenge me to push my boundaries and expand my knowledge in the field of Computer Science.</p>
+            <h4>TECHICAL SKILLS</h4>
+            <ul><li>C</li><li>Java</li><li>Html</li><li>CSS</li></ul>
+            <h4>SKILLS</h4>
+            <ul><li>Organisation</li><li>TeamWork</li><li>Time-Management</li><li>Responsibility</li></ul>
+            <h4>TOOLs</h4>
+            <ul><li>Eclipse IDE</li>
+            <li>Visual Studio Code</li>
+            <li>CodeBlocks</li>
+          <li>IntelliJ</li><li>Netbeans</li></ul>
+          <h4>HOBBIES</h4>
+          <ul><li>Reading Books</li>
+          <li>Social Works</li>
+          <li>Listening</li>
+          <li>Playing Games</li></ul>
+        </div>
+       <div class="column middle"></div>
+        
+        <div class="column side2">
+          <h4>EDUCATION</h4>
+          <h6>BACHELOR DEGREE 20xx-20yy</h6>
+          <P>Pursuing my Bachelor degree in Computer Science and Engineering at ABC college with (int)x.yz*CGPA</P>
+          <h6>HIGHER SECONDARY 20xx-20xx</h6>
+          <p>Completed My HSC in BCD school XYZ, with 87% of Aggregate </p>
+          <h6>SENIOR SECONDARY 20xx-20yy</h6>
+          <p>Completed my SSLC in BDE school XYW,with 73% of Aggregate</p>
+          <h4>ACHIEVEMENTS</h4>
+          <p><ul><li>Have completed Cambridge English Language Assessment exam.</li>
+          <li>Have completed my NPTEL course in Problem Solving through Programming in C.</li>
+        <li>Participated in smart India Hackathon-20xx conducted by MHRD and AICTE.</li></ul></p>
+        <h4>PROJECT</h4>
+        <h6>TITLE: LIBRARY MANAGEMENT</h6>
+        <p>The system helps both students and library manager to keep a constant track of all the books available in the library. It allows both the admin and the student to search for the desired book. It becomes necessary for colleges to keep a continuous check on the books issued and returned and even calculate fine. </p>
+        <h4>CONTACT<br><br><i Style="align:left;" class="fa fa-phone">&nbsp&nbsp +91 9876543210</i><br><br>
+          <i style="align:right;" class="fa fa-envelope"></i>&nbsp&nbspabcd43@gmail.com </h4>
+        </div>
+      </div>
+    </div>
+        <div class="footer">
+          <p>created by ABC</p>
+        </div>
+    </body>
+</html>
